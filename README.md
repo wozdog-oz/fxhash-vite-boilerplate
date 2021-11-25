@@ -28,7 +28,7 @@ You will need to have [nodejs](https://nodejs.org/) installed.
 
 Clone the repository on your machine and move to the directory
 ```sh
-$ git clone https://github.com/fxhash/fxhash-webpack-boilerplate.git your_folder && cd your_folder
+$ git clone  https://github.com/wozdog-oz/fxhash-vite-boilerplate.git your_folder && cd your_folder
 ```
 
 Install the packages required for the local environment
@@ -39,10 +39,10 @@ $ npm i
 ## Start local environment
 
 ```sh
-$ npm start
+$ npm run dev
 ```
 
-This last command will start a local http server with [live reloading](https://webpack.js.org/configuration/dev-server/#devserverlivereload) enabled so that you can iterate faster on your projects. Open [http://localhost:8080](http://localhost:8080) to see your project in the browser.
+This last command will start a local http server with hot module reloading enabled so that you can iterate faster on your projects. Open [http://localhost:3000](http://localhost:3000) to see your project in the browser.
 
 ## Build
 

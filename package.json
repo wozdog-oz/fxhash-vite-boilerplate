@@ -1,0 +1,14 @@
+{
+  "name": "fxhash_vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build  --base=./",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "rollup-plugin-copy2": "^0.3.1",
+    "rollup-plugin-zip": "^1.0.3",
+    "vite": "^2.6.4"
+  }
+}
